@@ -18,6 +18,7 @@ body {
 
 .brand-subtitle {
     color: inherit;
+    font-size: 10px;
 }
 
 .contact-icon {
@@ -43,13 +44,10 @@ body {
     min-height: 50px;
 }
 
-.home-link {
+.border-right-link {
     border-right: 2px solid rgba(255, 255, 255, 0.3) !important;
 }
 
-.services-link {
-    border-right: 2px solid rgba(255, 255, 255, 0.3) !important;
-}
 
 .modern-nav-link {
     font-weight: 600 !important;
