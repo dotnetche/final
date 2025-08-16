@@ -1,0 +1,216 @@
+/* Custom Font */
+@font-face {
+    font-family: myFirstFont;
+    src: url('../public/fonts/satoshi.ttf');
+}
+
+body {
+    font-family: myFirstFont, sans-serif;
+}
+
+/* Logo and Brand Styling */
+.logo-icon {
+    transform: scale(3);
+}
+
+.brand-name {
+    color: #03AF9F;
+}
+
+.brand-subtitle {
+    color: inherit;
+}
+
+/* Contact Icons */
+.contact-icon {
+    color: #03AF9F;
+}
+
+.contact-icon:hover {
+    background-color: transparent !important;
+}
+
+/* Hero Section */
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 10rem;
+    transform: translateY(-5rem);
+    z-index: 3;
+    width: 75%;
+}
+
+.carousel-height {
+    height: 75vh;
+}
+
+/* Custom Carousel Indicators */
+.custom-indicators {
+    text-align: left;
+    left: -5% !important;
+    right: inherit;
+    z-index: 1;
+}
+
+.custom-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+/* Welcome Section */
+.welcome-section {
+    background-color: #F5F7F6;
+}
+
+.mission-icon,
+.vision-icon,
+.support-icon {
+    color: #03AF9F;
+}
+
+.cta-card {
+    background-color: #03AF9F;
+}
+
+.quote-btn {
+    color: #03AF9F;
+}
+
+/* Doctor Section */
+.doctor-image {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    padding-right: 3rem;
+    margin-right: 3rem;
+}
+
+.doctor-title {
+    color: #03AF9F;
+}
+
+.doctor-credentials {
+    list-style: none;
+    padding-left: 0;
+}
+
+.doctor-credentials li::marker {
+    content: "• ";
+    color: #03AF9F;
+}
+
+.doctor-description {
+    width: 75%;
+}
+
+/* Reviews Section */
+.reviews-section {
+    background-color: #F5F7F6;
+}
+
+.reviewer-name {
+    color: #03AF9F;
+}
+
+/* Blog Section */
+.blog-icon {
+    color: #03AF9F;
+}
+
+.blog-meta {
+    margin-bottom: 0;
+}
+
+/* Final CTA */
+.final-cta {
+    background-color: #03AF9F;
+}
+
+.final-cta-btn {
+    color: #03AF9F;
+}
+
+/* Footer */
+.footer-logo-icon {
+    transform: scale(3);
+}
+
+.footer-contact-icon {
+    color: #03AF9F;
+}
+
+.footer-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-list li::marker {
+    content: "> ";
+    color: #03AF9F;
+}
+
+.footer-list a {
+    text-decoration: none;
+}
+
+.footer-list a:hover {
+    color: #03AF9F !important;
+}
+
+.newsletter-text {
+    width: 75%;
+}
+
+.footer-copyright {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.footer-copyright a {
+    text-decoration: none;
+}
+
+.footer-copyright a:hover {
+    color: #03AF9F !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-content {
+        left: 2rem;
+        width: calc(100% - 4rem);
+        transform: translateY(-3rem);
+    }
+    
+    .doctor-image {
+        width: 100%;
+        height: auto;
+        padding-right: 0;
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+    
+    .doctor-description {
+        width: 100%;
+    }
+    
+    .newsletter-text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-content {
+        left: 1rem;
+        width: calc(100% - 2rem);
+    }
+    
+    .hero-content h1 {
+        font-size: 1.5rem;
+    }
+    
+    .logo-icon,
+    .footer-logo-icon {
+        transform: scale(2);
+    }
+}
