@@ -117,8 +117,26 @@ body {
 
 @media (max-width: 1200px) {
     .carousel-control-prev,
-    .carousel-control-next {
+    .carousel-control-next,
+    .carousel-indicators {
         display: none !important;
+    }
+    
+    .hero-content {
+        left: 2rem;
+        width: calc(100% - 4rem);
+        transform: translateY(-2rem);
+    }
+    
+    .hero-content h1 {
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+    
+    .hero-content p {
+        font-size: 1.1rem;
+        line-height: 1.4;
+        margin-bottom: 2rem;
     }
 }
 
@@ -371,9 +389,20 @@ body {
 
 @media (max-width: 992px) {
     .hero-content {
-        left: 3rem;
-        width: calc(100% - 6rem);
-        transform: translateY(-3rem);
+        left: 2rem;
+        width: calc(100% - 4rem);
+        transform: translateY(-1rem);
+    }
+    
+    .hero-content h1 {
+        font-size: 2.2rem;
+        line-height: 1.2;
+    }
+    
+    .hero-content p {
+        font-size: 1rem;
+        line-height: 1.4;
+        margin-bottom: 1.5rem;
     }
     
     .doctor-row {
@@ -432,11 +461,18 @@ body {
     .hero-content {
         left: 2rem;
         width: calc(100% - 4rem);
-        transform: translateY(-2rem);
+        transform: translateY(-1rem);
     }
     
     .hero-content h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
+        line-height: 1.2;
+    }
+    
+    .hero-content p {
+        font-size: 0.95rem;
+        line-height: 1.4;
+        margin-bottom: 1.5rem;
     }
     
     .doctor-image {
@@ -476,15 +512,18 @@ body {
     .hero-content {
         left: 1rem;
         width: calc(100% - 2rem);
-        transform: translateY(-1rem);
+        transform: translateY(-0.5rem);
     }
     
     .hero-content h1 {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
+        line-height: 1.2;
     }
     
     .hero-content p {
-        font-size: 0.95rem;
+        font-size: 0.9rem;
+        line-height: 1.4;
+        margin-bottom: 1.5rem;
     }
     
     .logo-icon,
@@ -530,11 +569,14 @@ body {
 
 @media (max-width: 480px) {
     .hero-content h1 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+        line-height: 1.2;
     }
     
     .hero-content p {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
+        line-height: 1.4;
+        margin-bottom: 1.5rem;
     }
     
     .services-section .service-item img {
