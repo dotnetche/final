@@ -201,7 +201,7 @@ body {
 }
 
 .doctor-info {
-    padding: 2rem;
+    padding: 0rem;
 }
 
 .doctor-title {
@@ -209,6 +209,7 @@ body {
 }
 
 .doctor-credentials {
+    text-align: left;
     list-style: none;
     padding-left: 0;
     margin: 2rem 0;
