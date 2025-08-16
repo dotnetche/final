@@ -9,7 +9,7 @@ body {
 
 
 .logo-icon {
-    transform: scale(3);
+    transform: scale(2.5);
 }
 
 .brand-name {
@@ -21,56 +21,62 @@ body {
 }
 
 .contact-icon {
-    color: #03AF9F;
-    border-color: #03AF9F;
+    color: #03AF9F !important;
+    border: none !important;
+    background: none !important;
     transition: all 0.3s ease;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
 }
 
 .contact-icon:hover {
-    background-color: #03AF9F !important;
-    border-color: #03AF9F !important;
-    color: white !important;
-    transform: scale(1.05);
+    color: #028a7a !important;
 }
 
-
-.navbar {
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+.modern-navbar {
+    background-color: #03AF9F !important;
+    padding: 0;
 }
 
 .modern-nav-link {
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    color: #333 !important;
-    transition: none;
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
+    color: white !important;
+    font-size: 13px !important;
+    padding: 1rem 1.5rem !important;
+    transition: all 0.3s ease !important;
 }
 
 .modern-nav-link:hover {
-    color: #333 !important;
+    color: #e0f2f1 !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
 .modern-nav-link.active {
-    color: #03AF9F !important;
-    font-weight: 600;
+    color: white !important;
+    background-color: rgba(255, 255, 255, 0.2) !important;
 }
 
 .search-btn {
-    border-color: #03AF9F;
-    color: #03AF9F;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    border: none !important;
+    color: white !important;
+    width: 45px;
+    height: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
+    margin: 0.5rem;
 }
 
 .search-btn:hover {
-    background-color: #03AF9F;
-    border-color: #03AF9F;
-    color: white;
-    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    color: white !important;
 }
 
 
