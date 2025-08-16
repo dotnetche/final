@@ -45,7 +45,7 @@
     </header>
 
     <!-- Main Navigation -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
         <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -53,27 +53,31 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link text-uppercase border-end px-4 active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link text-uppercase px-4 active modern-nav-link" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-uppercase border-end px-4" href="#">Service</a>
+                        <a class="nav-link text-uppercase px-4 modern-nav-link" href="#">Service</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-uppercase border-end px-4" href="#">Blog</a>
+                        <a class="nav-link text-uppercase px-4 modern-nav-link" href="#">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-uppercase border-end px-4" href="#">Features</a>
+                        <a class="nav-link text-uppercase px-4 modern-nav-link" href="#">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-uppercase border-end px-4" href="#">Contact us</a>
+                        <a class="nav-link text-uppercase px-4 modern-nav-link" href="#">Contact us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-uppercase border-end px-4" href="#">Style guide</a>
+                        <a class="nav-link text-uppercase px-4 modern-nav-link" href="#">Style guide</a>
                     </li>
                 </ul>
-                <i class="bi bi-search text-dark"></i>
+                <div class="d-flex">
+                    <button class="btn btn-outline-primary search-btn" type="button">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
             </div>
         </div>
     </nav>
@@ -118,34 +122,34 @@
     </section>
 
     <!-- Cardiology Services Section -->
-    <section class="container mt-5">
+    <section class="container mt-5 services-section">
         <div class="text-center mb-5">
             <h2>Cardiology Service</h2>
             <p>Aliquam sodales in lacus ut diamuspendisse imperdiet enimass</p>
         </div>
 
         <div class="row g-4">
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 text-center service-item">
                 <img src="public/images/section1.png" alt="Diagnostic Cardiac" class="img-fluid">
                 <h5 class="mt-2">Diagnostic Cardiac</h5>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 text-center service-item">
                 <img src="public/images/section2.png" alt="Vascular Diagnostic" class="img-fluid">
                 <h5 class="mt-2">Vascular Diagnostic</h5>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 text-center service-item">
                 <img src="public/images/section3.png" alt="Invasive Procedures" class="img-fluid">
                 <h5 class="mt-2">Invasive Procedures</h5>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 text-center service-item">
                 <img src="public/images/section4.png" alt="Heart Conditions Treated" class="img-fluid">
                 <h5 class="mt-2">Heart Conditions Treated</h5>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 text-center service-item">
                 <img src="public/images/section5.png" alt="Vein Clinic Service" class="img-fluid">
                 <h5 class="mt-2">Vein Clinic Service</h5>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 text-center service-item">
                 <img src="public/images/section6.png" alt="Diagnostic Cardiac Cardiology" class="img-fluid">
                 <h5 class="mt-2">Diagnostic Cardiac Cardiology</h5>
             </div>
@@ -194,9 +198,9 @@
             </div>
 
             <div class="card w-100 text-white mt-4 cta-card">
-                <div class="card-body d-flex flex-column flex-md-row align-items-center">
+                <div class="card-body d-flex flex-column flex-md-row align-items-center cta-card-body">
                     <i class="bi bi-telephone-fill fs-2 text-white btn btn-outline-light rounded-circle me-3 mb-3 mb-md-0"></i>
-                    <div class="flex-grow-1 text-center text-md-start">
+                    <div class="flex-grow-1 text-center text-md-start cta-text-section">
                         <p class="card-text mb-1">With supporting text below as a natural lead-in to additional content.</p>
                         <strong>+91-123-4567-789</strong>
                     </div>
@@ -207,9 +211,9 @@
     </section>
 
     <!-- Doctor Profile Section -->
-    <section class="container p-5 mt-5">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
+    <section class="container p-5 mt-5 doctor-section">
+        <div class="row align-items-center doctor-row">
+            <div class="col-lg-6 doctor-image-col">
                 <img src="public/images/doctor2.png" class="img-fluid doctor-image" alt="Dr. Martin Moris">
             </div>
             <div class="col-lg-6">
@@ -316,8 +320,8 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-dark text-white">
-        <div class="container pt-5">
+    <footer class="bg-dark text-white footer-enhanced">
+        <div class="container py-5">
             <div class="row mt-3">
                 <!-- Company Info -->
                 <div class="col-md-6 col-lg-4 mb-4">
@@ -380,7 +384,7 @@
         </div>
 
         <!-- Copyright -->
-        <div class="text-center p-4 footer-copyright">
+        <div class="text-center py-4 footer-copyright">
             CARDIO © 2016 | <a href="#" class="text-white fw-bold">PRIVACY POLICY</a>
         </div>
     </footer>
