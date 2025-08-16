@@ -226,16 +226,10 @@ header .d-flex.flex-column.flex-md-row {
     height: clamp(150px, 25vw, 200px);
     object-fit: cover;
     margin-bottom: clamp(0.75rem, 2vw, 1rem);
-    border-radius: 8px;
-    transition: transform 0.3s ease;
 }
 
 .services-section .service-item:hover {
     transform: translateY(-5px);
-}
-
-.services-section .service-item:hover img {
-    transform: scale(1.05);
 }
 
 .services-section .service-item h5 {
@@ -268,14 +262,25 @@ header .d-flex.flex-column.flex-md-row {
     gap: clamp(1rem, 3vw, 2rem);
 }
 
+.welcome-section .col-lg-4 {
+    text-align: center;
+}
+
+.welcome-section .d-flex.align-items-center {
+    justify-content: center;
+    text-align: center;
+}
+
 .welcome-section h2 {
     font-size: clamp(1.25rem, 3vw, 2rem);
     margin-bottom: clamp(0.75rem, 2vw, 1rem);
+    text-align: center;
 }
 
 .welcome-section p {
     font-size: clamp(0.85rem, 1.8vw, 1rem);
     line-height: 1.6;
+    text-align: center;
 }
 
 .mission-icon,
@@ -346,8 +351,6 @@ header .d-flex.flex-column.flex-md-row {
     max-width: clamp(300px, 50vw, 450px);
     height: auto;
     object-fit: cover;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .doctor-info {
@@ -459,13 +462,8 @@ header .d-flex.flex-column.flex-md-row {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
 }
 
-.blog-item:hover img {
-    transform: scale(1.05);
-}
 
 .blog-item h5 {
     margin: clamp(0.75rem, 2vw, 1rem) 0;
