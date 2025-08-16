@@ -103,30 +103,16 @@ body {
     height: 75vh;
 }
 
-.custom-indicators {
+.carousel-indicators {
     text-align: left;
     left: -5% !important;
     right: inherit;
     z-index: 1;
 }
 
-.custom-indicators button {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.4);
-    border: none;
-    margin: 0 5px;
-    transition: all 0.3s ease;
-    text-indent: -9999px;
-    overflow: hidden;
-}
 
-.custom-indicators button.active {
-    background-color: white;
-    width: 15px;
-    height: 15px;
-    transform: scale(1.1);
+.carousel-indicators button.active {
+    background-color: #DC3545;
 }
 
 
